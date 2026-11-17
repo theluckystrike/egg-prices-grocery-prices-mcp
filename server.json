@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.theluckystrike/egg-prices-grocery-prices-mcp",
+  "title": "Egg Prices and Grocery Prices MCP",
+  "description": "US average price of eggs, beef, coffee, milk and other groceries by month from BLS, with history.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/theluckystrike/egg-prices-grocery-prices-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://egg-prices-grocery-prices-mcp.lipmichal.workers.dev/mcp"
+    }
+  ]
+}

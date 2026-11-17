@@ -1,0 +1,6 @@
+[
+  ["grocery_price", {"item": "eggs"}],
+  ["grocery_price_history", {"item": "coffee", "from": "2021-01"}],
+  ["grocery_prices_compare", {}],
+  ["grocery_price_items", {"category": "energy"}]
+]
